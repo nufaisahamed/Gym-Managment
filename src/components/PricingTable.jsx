@@ -44,7 +44,7 @@ const PricingTable = () => {
   ];
 
   return (
-    <div className="pricing flex flex-col md:flex-row justify-center items-stretch gap-6 bg-transparent p-8 w-full py-10">
+    <div className="pricing bg-black flex flex-col md:flex-row justify-center items-stretch gap-6 p-8 w-full py-10">
       {plans.map((plan) => (
         <div
           key={plan.id}
