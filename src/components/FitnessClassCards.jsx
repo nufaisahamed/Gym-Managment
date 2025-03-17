@@ -18,7 +18,7 @@ const FitnessClassCards = () => {
               />
             </div>
             <div className="p-6 text-center flex-1 flex flex-col">
-              <p className="text-red-500 font-bold text-lg mb-2 transition-colors duration-300 hover:text-red-400">$100 Month</p>
+              <p className="text-red-500 font-bold text-lg mb-2 transition-colors duration-300 hover:text-red-400">₹800 Month</p>
               <h3 className="text-3xl font-bold italic mb-4 text-white">BODY BUILDING</h3>
               
               <div className="border-t border-b border-gray-800 py-4 mb-4">
@@ -61,7 +61,7 @@ const FitnessClassCards = () => {
           {/* Yoga Card */}
           <div className="flex flex-col bg-black rounded-lg overflow-hidden shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
             <div className="p-6 text-center order-2 md:order-1 flex-1 flex flex-col">
-              <p className="text-red-500 font-bold text-lg mb-2 transition-colors duration-300 hover:text-red-400">$49 Month</p>
+              <p className="text-red-500 font-bold text-lg mb-2 transition-colors duration-300 hover:text-red-400">₹300 Month</p>
               <h3 className="text-3xl font-bold italic mb-4 text-white">YOGA</h3>
               
               <div className="border-t border-b border-gray-800 py-4 mb-4">
@@ -118,7 +118,7 @@ const FitnessClassCards = () => {
               />
             </div>
             <div className="p-6 text-center flex-1 flex flex-col">
-              <p className="text-red-500 font-bold text-lg mb-2 transition-colors duration-300 hover:text-red-400">$199 Month</p>
+              <p className="text-red-500 font-bold text-lg mb-2 transition-colors duration-300 hover:text-red-400">₹1199 Month</p>
               <h3 className="text-3xl font-bold italic mb-4 text-white">BOXING</h3>
               
               <div className="border-t border-b border-gray-800 py-4 mb-4">

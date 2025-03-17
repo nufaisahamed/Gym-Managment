@@ -8,7 +8,7 @@ const PricingTable = () => {
     {
       id: 1,
       name: 'BASIC',
-      price: 199,
+      price: 700,
       features: [
         'Limited Install',
         'Unlimited Download',
@@ -20,7 +20,7 @@ const PricingTable = () => {
     {
       id: 2,
       name: 'GOLD',
-      price: 300,
+      price: 1500,
       features: [
         'Limited Install',
         'Unlimited Download',
@@ -32,7 +32,7 @@ const PricingTable = () => {
     {
       id: 3,
       name: 'PLATINUM',
-      price: 499,
+      price: 2300,
       features: [
         'Limited Install',
         'Unlimited Download',
@@ -55,13 +55,13 @@ const PricingTable = () => {
               {plan.name}
             </h2>
             <p className="text-gray-300 mt-2 transition-colors duration-300 group-hover:text-gray-200">
-              Best For Startup Companies Loem Umsum Dolor Summit Imets
+              Best For Startup Companies <br /> and Small Teams
             </p>
           </div>
 
           <div className="p-6 bg-gray-700 transition-colors duration-300 group-hover:bg-gray-600">
             <div className="flex items-baseline">
-              <span className="text-xl text-white">$</span>
+              <span className="text-xl text-white">₹</span>
               <span className="text-5xl font-bold text-white transition-transform duration-300 group-hover:scale-110">
                 {plan.price}
               </span>

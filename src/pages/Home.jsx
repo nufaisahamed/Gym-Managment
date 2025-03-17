@@ -8,6 +8,7 @@ import OurStorySection from "../components/OurStorySection";
 import FitnessClassCards from "../components/FitnessClassCards";
 import OurAdvantagesSection from "../components/OurAdvantagesSection";
 import PricingTable from "../components/PricingTable";
+import Footer from "../components/Footer";
 
 
 const Home = () => {
@@ -17,13 +18,13 @@ const Home = () => {
     setIsTopicsOpen(!isTopicsOpen);
   };
   return (
-    <div className="backimg min-h-screen bg-transparent text-white mt-[650px]">
+    <div className="backimg min-h-screen bg-transparent text-white mt-[100px] sm:mt-[120px] md:mt-[120px] lg:mt-[650px]"> 
       {/* Hero Section */}
       <div className="bg-transparent  py-20">
         <div className="text-4xl   sm:text-5xl md:text-6xl lg:text-8xl font-bold leading-tight px-5 ">
-          <h1 className=" hover:text-pink-200  ">Strength,</h1>
+          <h1 className="text-[#333333] hover:text-pink-200  ">Strength,</h1>
           <h1 className="text-[#dbdbdb]">Endurance,</h1>
-          <h1 className=" hover:text-pink-200 ">Transformation</h1>
+          <h1 className="text-[#333333] hover:text-pink-200 ">Transformation</h1>
         </div>
         <div className="px-5 mt-5">
           <Link
@@ -78,12 +79,14 @@ const Home = () => {
         {/* Topics Div */}
         {isTopicsOpen && (
           <div className="story  mt-4 p-6 border-1 border-b-purple-300 rounded-xl bg-black text-white shadow-lg transition-all duration-300 animate-fadeIn w-full" style={{
+           padding: '0',
+           margin: '0',
             backgroundImage: `url(${ali})`,// Replace with your image path
             backgroundSize: 'cover',
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
-            minHeight: '100vh', // Ensure the background covers the full height
+            // minHeight: '100vh', // Ensure the background covers the full height
           }}>
             <div className="space-y-2"><OurStorySection/></div>
             <div className=" space-y-2"><FitnessClassCards/></div>
@@ -100,6 +103,10 @@ const Home = () => {
       </div>
       <div className="">
         <PricingTable/>
+      </div>
+
+      <div>
+        <Footer/>
       </div>
     </div>
   );

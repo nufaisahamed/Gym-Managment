@@ -11,6 +11,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import backgroundImage from '../src/assets/navbar/back1.jpg'; // Import the background image
 import PricingTable from '../src/components/PricingTable';
+import ContactPage from '../src/pages/ContactPage';
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/pricing" element={<PricingTable />} />
+            <Route path="contact" element={<ContactPage />} /> 
           </Routes>
         </div>
       </Router>

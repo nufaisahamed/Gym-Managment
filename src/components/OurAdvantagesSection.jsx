@@ -10,7 +10,7 @@ const OurAdvantagesSection = () => {
       ),
       title: "QUALIFIED TRAINERS",
       description:
-        "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesing Industry Lorem Ipsum Hasbeen When",
+        "",
     },
     {
       icon: (
@@ -21,7 +21,7 @@ const OurAdvantagesSection = () => {
       ),
       title: "FULLY INSURED",
       description:
-        "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesing Industry Lorem Ipsum Hasbeen When",
+        "",
     },
     {
       icon: (
@@ -31,7 +31,7 @@ const OurAdvantagesSection = () => {
       ),
       title: "INDIVIDUAL TRAINING",
       description:
-        "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesing Industry Lorem Ipsum Hasbeen When",
+        "",
     },
     {
       icon: (
@@ -41,7 +41,7 @@ const OurAdvantagesSection = () => {
       ),
       title: "TRAINED CHAMPS",
       description:
-        "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesing Industry Lorem Ipsum Hasbeen When",
+        "",
     },
     {
       icon: (
@@ -51,7 +51,7 @@ const OurAdvantagesSection = () => {
       ),
       title: "MULTIPLE CLASSIS",
       description:
-        "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesing Industry Lorem Ipsum Hasbeen When",
+        "",
     },
     {
       icon: (
@@ -61,7 +61,7 @@ const OurAdvantagesSection = () => {
       ),
       title: "OPENDOOR POLICY",
       description:
-        "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesing Industry Lorem Ipsum Hasbeen When",
+        "",
     },
     {
       icon: (
@@ -71,7 +71,7 @@ const OurAdvantagesSection = () => {
       ),
       title: "HIGHTECH GYM",
       description:
-        "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesing Industry Lorem Ipsum Hasbeen When",
+        "",
     },
     {
       icon: (
@@ -81,7 +81,7 @@ const OurAdvantagesSection = () => {
       ),
       title: "HIGHTECH GYM",
       description:
-        "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesing Industry Lorem Ipsum Hasbeen When",
+        "",
     },
   ];
 
