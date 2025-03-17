@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+
+/* MarqueeScroll.css */
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  white-space: nowrap;
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Optional: Pause on hover for the entire marquee */
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Image styling */
+.animate-marquee img {
+  object-fit: contain; /* Ensures proper scaling */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect for individual images */
+.hover-effect:hover {
+  transform: scale(1.1); /* Slightly enlarge the image */
+  opacity: 0.8; /* Slightly fade the image */
+}
+ 
