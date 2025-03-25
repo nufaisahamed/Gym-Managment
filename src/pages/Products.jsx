@@ -9,7 +9,7 @@ const Products = () => {
       id: 1,
       name: 'Protein Powder',
       price: 30,
-      image: 'https://m.media-amazon.com/images/I/719YpGSLmIL._AC_UL480_FMwebp_QL65_.jpg', // Replace with actual image URL
+      image: 'https://m.media-amazon.com/images/I/719YpGSLmIL._AC_UL480_FMwebp_QL65_.jpg', 
       description: 'High-quality protein powder for muscle recovery.',
       rating: 4.5,
     },
@@ -17,7 +17,7 @@ const Products = () => {
       id: 2,
       name: 'Dumbbells',
       price: 50,
-      image: 'https://m.media-amazon.com/images/I/71hmkD6-0xL._AC_UL480_FMwebp_QL65_.jpg', // Replace with actual image URL
+      image: 'https://m.media-amazon.com/images/I/71hmkD6-0xL._AC_UL480_FMwebp_QL65_.jpg', 
       description: 'Adjustable dumbbells for home workouts.',
       rating: 4.7,
     },
@@ -25,7 +25,7 @@ const Products = () => {
       id: 3,
       name: 'Yoga Mat',
       price: 20,
-      image: 'https://m.media-amazon.com/images/I/71VaLeCKVGL._AC_UL480_FMwebp_QL65_.jpg', // Replace with actual image URL
+      image: 'https://m.media-amazon.com/images/I/71VaLeCKVGL._AC_UL480_FMwebp_QL65_.jpg', 
       description: 'Eco-friendly yoga mat for comfortable workouts.',
       rating: 4.8,
     },
@@ -33,7 +33,7 @@ const Products = () => {
       id: 4,
       name: 'Resistance Bands',
       price: 15,
-      image: 'https://m.media-amazon.com/images/I/61dqjz2uE6L._AC_UL480_FMwebp_QL65_.jpg', // Replace with actual image URL
+      image: 'https://m.media-amazon.com/images/I/61dqjz2uE6L._AC_UL480_FMwebp_QL65_.jpg', 
       description: 'Set of 5 resistance bands for strength training.',
       rating: 4.6,
     },
@@ -41,7 +41,7 @@ const Products = () => {
       id: 5,
       name: 'Jump Rope',
       price: 10,
-      image: 'https://m.media-amazon.com/images/I/71l2-gWOnpL._AC_UL480_FMwebp_QL65_.jpg', // Replace with actual image URL
+      image: 'https://m.media-amazon.com/images/I/71l2-gWOnpL._AC_UL480_FMwebp_QL65_.jpg', 
       description: 'Durable jump rope for cardio workouts.',
       rating: 4.4,
     },
@@ -49,7 +49,7 @@ const Products = () => {
       id: 6,
       name: 'Foam Roller',
       price: 25,
-      image: 'https://m.media-amazon.com/images/I/61oiHHde+SL._AC_UL480_FMwebp_QL65_.jpg', // Replace with actual image URL
+      image: 'https://m.media-amazon.com/images/I/61oiHHde+SL._AC_UL480_FMwebp_QL65_.jpg', 
       description: 'High-density foam roller for muscle recovery.',
       rating: 4.9,
     },
